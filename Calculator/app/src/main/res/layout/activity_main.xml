@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="bottom|right"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="50dp" />
+
+    <TableRow android:gravity="center"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_color"
+            android:text="AC"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+
+        <TextView
+            android:id="@+id/signchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_color"
+            android:text="⁺/-"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/percentsign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_color"
+            android:text="%"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/divisionsign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_color_orange"
+            android:text="÷"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40dp" />
+    </TableRow>
+
+    <TableRow android:gravity="center"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/sign_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_color_darkgray"
+            android:text="7"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/sign_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_color_darkgray"
+            android:text="8"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/sign_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_color_darkgray"
+            android:text="9"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/multiplicationsign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_color_orange"
+            android:text="×"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40dp" />
+    </TableRow>
+
+    <TableRow android:gravity="center"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/sign_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_color_darkgray"
+            android:text="4"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/sign_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_color_darkgray"
+            android:text="5"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/sign_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_color_darkgray"
+            android:text="6"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/minussign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_color_orange"
+            android:text="－"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40dp" />
+    </TableRow>
+
+    <TableRow android:gravity="center"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/sign_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_color_darkgray"
+            android:text="1"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/sign_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_color_darkgray"
+            android:text="2"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/sign_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_color_darkgray"
+            android:text="3"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/plussign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_color_orange"
+            android:text="+"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40dp" />
+    </TableRow>
+
+    <TableRow android:gravity="center"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/sign_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_color_0"
+            android:layout_span="2"
+            android:text="0"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/pointsign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_color_darkgray"
+            android:text="."
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/equalsign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/back_color_orange"
+            android:text="="
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40dp" />
+    </TableRow>
+
+</TableLayout>
